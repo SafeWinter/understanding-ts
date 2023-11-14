@@ -2,7 +2,7 @@
 
 
 
-`literal` 型衍生自 `union` 型，不过用于声明 “并列的” 类型不再是常见的数据类型，而是一个具体的 “字面量”：
+`literal` 型（字面常量型）衍生自 `union` 型，只不过类型不再是常见的数据类型，而是一个具体的 “字面量”：
 
 ```js
 const weight = 2.8;
@@ -11,7 +11,7 @@ const flag = 'option1' | 'option2';
 
 
 
-课程通过改造上节 `combine` 函数演示 `字面量` 型的用法：
+课程通过改造上节 `combine` 函数演示 `literal` 型的用法：
 
 ```ts
 // original:
@@ -23,6 +23,7 @@ function combine(input1: number | string, input2: number | string) {
     return input1.toString() + input2.toString();
   }
 }
+
 // refactored:
 function combine1(
     n1: number | string, 
@@ -36,12 +37,8 @@ function combine1(
         return result.toString();
     }
 }
-console.log(combine1(26, 30, 'as-number'));
-console.log(combine1('26', '30', 'as-number'));
-/*
-56
-2630
-*/
+console.log(combine1(26, 30, 'as-number'));  // 56
+console.log(combine1('26', '30', 'as-number'));  // 2630
 ```
 
 利用 `VSCode` 的提示可以看到，`resultConversion` 的类型为 `literal` 型：
@@ -54,7 +51,7 @@ console.log(combine1('26', '30', 'as-number'));
 
 
 
-附 `enum` 方案：
+附： `enum` 方案：
 
 ```ts
 enum Flag { AS_NUMBER, AS_TEXT };
@@ -71,11 +68,7 @@ function combine2(
     }
 }
 
-console.log(combine2(36, 30, Flag.AS_NUMBER));
-console.log(combine2('36', '30', Flag.AS_NUMBER));
-/*
-66
-3630
-*/
+console.log(combine2(36, 30, Flag.AS_NUMBER));  // 66
+console.log(combine2('36', '30', Flag.AS_NUMBER));  // 3630
 ```
 
