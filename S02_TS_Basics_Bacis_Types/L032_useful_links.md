@@ -22,7 +22,7 @@
 
 - 可选的参数的类型，需在属性名称后添加 `?`
 
-- 在任何表达式后写入 `!` 实际上是一种 **类型断言**，即值不是 `null` 或 `undefined`，例如：（第 4 行）
+- 在任何表达式后写入 `!` 实际上是一种 **类型断言**，即值不是 `null` 或 `undefined`，例如：（第 3 行）
 
   ```ts
   function liveDangerously(x?: number | null) {
