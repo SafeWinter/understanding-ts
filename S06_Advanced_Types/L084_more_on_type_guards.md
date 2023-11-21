@@ -124,3 +124,5 @@ if (isLoggable(logger)) {
 ```
 
 ChatGPT 使用的是 `typeof obj.print === "function"`，并且添加了实现该接口的 `class` 类。
+
+要识别具体的接口，需要用到下一小节的知识点：
