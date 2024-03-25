@@ -21,6 +21,7 @@ $ npm init -y
 <html lang="en">
 <head>
   <title>Understanding TypeScript</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <script src="app.js" defer></script>
 </head>
 <body></body>
@@ -29,4 +30,12 @@ $ npm init -y
 
 
 
-注：原视频提到的 `lite-server` 依赖项太古老，不建议使用。
+注：
+
+1. 原视频提到的 `lite-server` 依赖项太古老，不建议使用；
+2. 本地服务器标签图标选用 `TypeScript` 官网图标，防止首次加载图标报 404 异常。
+
+
+
+实测代码位置：桌面（未托管版本）
+

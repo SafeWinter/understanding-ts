@@ -2,7 +2,7 @@
 
 
 
-推荐 IDE：Visual Studio Code（当前版本：v 1.84.2）
+推荐 IDE：Visual Studio Code（当前版本：v 1.87.2）
 
 推荐的 IDE 插件：
 
