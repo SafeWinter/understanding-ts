@@ -6,7 +6,7 @@
 
 ```ts
 let roles: [number, string];
-// 1. Same length, same types, same order: pass
+// 1. Same length, same types, same order: Pass
 roles = [2, 'Cars'];
 
 // 2. Diff length: compiling error
@@ -40,25 +40,17 @@ Argument of type 'Date' is not assignable to parameter of type 'string | number'
 ```ts
 let roles: [number, string];
 roles = [2, 'Cars'];
-// 1. push a number
-roles.push(3.14);       // pass
 
-// 2. push a string
-roles.push('Bikes');    // pass
-
-// 3. push a Date (err)
-roles.push(new Date()); // Error: Argument of type 'Date' is not assignable to parameter of type 'string | number'.ts(2345)
-
-// 4. unshift a number
+// 1. unshift a number
 roles.unshift(1);       // pass
 
-// 5. unshift a string
+// 2. unshift a string
 roles.unshift('Boat');  // pass
 
-// 6. pop an element
+// 3. pop an element
 roles.pop();            // pass
 
-// 7. shift an element
+// 4. shift an element
 roles.shift();          // pass
 ```
 

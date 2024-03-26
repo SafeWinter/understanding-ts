@@ -2,7 +2,7 @@
 
 
 
-例如嵌套型对象：
+嵌套对象举例：
 
 ```ts
 const product = {
@@ -16,12 +16,10 @@ const product = {
 }
 ```
 
+其类型为：
 
-
-其对象类型为：
-
-```ts
-{
+```typescript
+const nestedObj: {
   id: string;
   price: number;
   tags: string[];
