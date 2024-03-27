@@ -2,15 +2,13 @@
 
 
 
-回顾：JS 与 TS 中的类型
+回顾：`JS` 与 `TS` 支持的类型
 
-| DataType |       JavaScript       |            TypeScript            |
-| :------: | :--------------------: | :------------------------------: |
-|  number  |      1, 5.3, -10       |       也不区分整型、浮点型       |
-|  string  | 'Hi', "Hi", &grave;Hi` |              同 JS               |
-| boolean  |      true, false       | 同 JS（没有 truthy 或 falsy 值） |
-
-
+| DataType  |          JavaScript          |              TypeScript              |
+| :-------: | :--------------------------: | :----------------------------------: |
+| `number`  |         1, 5.3, -10          |    同 `JS`，也不区分整型、浮点型     |
+| `string`  | 'Hi', "Hi", &grave;Hi&grave; |               同 `JS`                |
+| `boolean` |         true, false          | 同 `JS`（但没有 truthy 或 falsy 值） |
 
 `TypeScript` 的类型系统 **只能在开发阶段** 提供帮助，在编译阶段给出类型错误提示。
 
