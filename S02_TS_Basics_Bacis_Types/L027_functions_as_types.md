@@ -2,7 +2,7 @@
 
 
 
-`TypeScript` 还可以指定一个具体的函数类型：
+`TypeScript` 还可以指定一个具体的 **函数类型**：
 
 ```ts
 function add(n1: number, n2: number) {

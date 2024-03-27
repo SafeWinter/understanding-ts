@@ -1,4 +1,4 @@
-# L023 Literal Types
+# L023 `Literal` Types
 
 
 

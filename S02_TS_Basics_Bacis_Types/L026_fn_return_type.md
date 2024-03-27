@@ -47,29 +47,29 @@ age = void(0);
 
 > `void` vs `undefined`
 >
-> 再次实测发现 undefined 在某种情况下依然会报错：
+> 再次实测发现 `undefined` 在某种情况下依然会报错：
 >
 > ```ts
 > // 1. OK
 > function printResult(num: number): void {
->   console.log("Result: " + num);
->   return;
+>       console.log("Result: " + num);
+>       return;
 > }
 > 
 > // 2. OK
 > function printResult(num: number): undefined {
->   console.log("Result: " + num);
->   return;
+>       console.log("Result: " + num);
+>       return;
 > }
 > 
 > // 3. OK
 > function printResult(num: number): void {
->   return console.log("Result: " + num);
+>       return console.log("Result: " + num);
 > }
 > 
 > // 4. error
 > function printResult(num: number): undefined {
->   return console.log("Result: " + num);  // Type 'void' is not assignable to type 'undefined'.ts(2322)
+>       return console.log("Result: " + num);  // Type 'void' is not assignable to type 'undefined'.ts(2322)
 > }
 > ```
 >

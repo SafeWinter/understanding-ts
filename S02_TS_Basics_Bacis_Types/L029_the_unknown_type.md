@@ -2,7 +2,7 @@
 
 
 
-TypeScript 还定义了一个特殊类型：`unknow`，用于表示某个当前未知的类型：
+`TypeScript` 还定义了一个特殊类型：`unknow`，用于表示某个当前未知的类型：
 
 ```ts
 let a: unknown;

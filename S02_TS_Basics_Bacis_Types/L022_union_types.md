@@ -31,4 +31,4 @@ Combine with err: Err: different parameter types found!
 */
 ```
 
-使用 `union` 时，通常需要分情况讨论运行时的具体类型。
+使用 `union` 时，通常需要分情况讨论运行时的具体类型。L3~L9 的 **校验逻辑** 不是必选项，具体问题具体分析。
