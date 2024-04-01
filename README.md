@@ -82,7 +82,9 @@
 
 ## 2. Outlines
 
-Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Working) | :no_entry: (Not Started) | :orange_book: (Finish Learning)
+Status available： 
+
+:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Working) | :no_entry: (Not Started) | :orange_book: (Finish Learning)
 
 | No.  |                        Chapter Title                         |          Status          |
 | :--: | :----------------------------------------------------------: | :----------------------: |
@@ -102,5 +104,4 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 | S14  |                    React.js & TypeScript                     |        :no_entry:        |
 | S15  |                Node.js + Express & TypeScript                |        :no_entry:        |
 | S16  |                        Course Roundup                        |        :no_entry:        |
-
 
