@@ -1,5 +1,11 @@
 # L001 Welcome to the Course!
 
+---
+
+（重制版）
+
+
+
 ## 1 课程介绍
 
 - 欢迎学习 `TypeScript` 课程。
