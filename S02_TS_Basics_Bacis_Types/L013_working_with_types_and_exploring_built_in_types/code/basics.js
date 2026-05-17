@@ -1,0 +1,3 @@
+var userName;
+// ...
+userName = 'Max';
