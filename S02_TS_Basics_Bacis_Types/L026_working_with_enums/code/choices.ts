@@ -1,0 +1,11 @@
+enum Role {
+  Admin,
+  Editor,
+  Guest,
+}
+
+let userRole: Role = Role.Admin;
+
+// ...
+
+userRole = Role.Guest;
