@@ -29,4 +29,4 @@ let userAge = 38;
 
 > [!tip]
 >
-> 截图中的错误信息提示格式来自 `VSCode` 热门插件 `Error Lens`。
+> 截图中的错误信息提示效果来自 `VSCode` 热门插件 `Error Lens`。

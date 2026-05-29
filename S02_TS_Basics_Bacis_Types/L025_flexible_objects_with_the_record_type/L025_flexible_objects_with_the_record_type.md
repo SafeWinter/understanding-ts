@@ -6,7 +6,7 @@
 
 `Record` 泛型的适用场景：变量值必须为一个对象，但具体包含哪些键并不重要，重要的是键和值的类型符合要求即可。
 
-示例：
+示例，对象中的 `key` 为 `string` 型、`value` 为 `number` 或 `string` 型：
 
 ```ts
 let data: Record<string, number | string>;
