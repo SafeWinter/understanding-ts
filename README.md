@@ -29,8 +29,8 @@ Status available：
 | No.  |                        Chapter Title                         |          Status          |
 | :--: | :----------------------------------------------------------: | :----------------------: |
 | S01 | Getting Started | :heavy_check_mark: |
-| S02 | TypeScript Basics & Basic Types | :hourglass_flowing_sand: |
-| S03 | The TypeScript Compiler (and its Configuration) | :no_entry: |
+| S02 | TypeScript Basics & Basic Types | :heavy_check_mark: |
+| S03 | The TypeScript Compiler (and its Configuration) | :hourglass_flowing_sand: |
 | S04 | TypeScript Essentials Demo Project | :no_entry: |
 | S05 | Next-generation JavaScript & TypeScript | :no_entry: |
 | S06 | Classes & Interfaces | :no_entry: |
